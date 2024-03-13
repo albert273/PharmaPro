@@ -1,0 +1,16 @@
+
+  @keyframes show {
+    0% {
+      scale: 0;
+    }
+    60% {
+      scale: 1.2;
+    }
+    100% {
+      scale: 1;
+    }
+  }
+  .List {
+    inset: "none";
+    animation: show 0.5s 1;
+  }
